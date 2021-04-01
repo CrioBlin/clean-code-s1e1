@@ -103,7 +103,7 @@ input#add-task__new-task {
   width: 318px;
 }
 
-p > button:hover {
+.todo > .btn:hover {
   color: #0fc57c;
 }
 
