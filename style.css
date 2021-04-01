@@ -36,10 +36,6 @@ body {
   flex-grow: 1;
 }
 
-.add-task__new-task-wrapper {
-  display: flex;
-}
-
 ul {
   margin: 0;
   padding: 0px;
@@ -55,7 +51,7 @@ button {
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -65,13 +61,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-h3,
-label[for='add-task__new-task'] {
+.heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -99,9 +94,9 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='add-task__new-task'] {
-  display: block;
-  margin: 0 0 20px;
+.add-task__new-task{
+  display: flex;
+  margin: 20px 0 20px;
 }
 
 input#add-task__new-task {
