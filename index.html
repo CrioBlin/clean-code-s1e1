@@ -12,21 +12,21 @@
     </header>
     <main class="main">
       <section id="add-task">
-        <label for="add-task__new-task">Add Item</label>
-        <div class="add-task__new-task-wrapper">
+        <h3 class="heading">Add Item</h3>
+        <div class="add-task__new-task">
           <input id="add-task__new-task" class="task__name" type="text">
-          <button>Add</button>
+          <button class="add-task__btn btn">Add</button>
         </div>
       </section>
       <section class="todo">
-        <h3>Todo</h3>
+        <h3 class="heading">Todo</h3>
         <ul id="incomplete-tasks">
           <li class="task">
             <input type="checkbox">
             <label class="task__name">Pay Bills</label>
             <input type="text">
-            <button class="task__edit-btn">Edit</button>
-            <button class="task__delete-btn">
+            <button class="task__edit-btn btn">Edit</button>
+            <button class="task__delete-btn btn">
               <img src="./remove.svg" alt="remove button">
             </button>
           </li>
@@ -34,22 +34,22 @@
             <input type="checkbox">
             <label class="task__name">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task__name">
-            <button class="task__edit-btn">Save</button>
-            <button class="task__delete-btn">
+            <button class="task__edit-btn btn">Save</button>
+            <button class="task__delete-btn btn">
               <img src="./remove.svg" alt="remove button">
             </button>
           </li>
         </ul>
       </section>
       <section class="completed">
-        <h3>Completed</h3>
+        <h3 class="heading">Completed</h3>
         <ul id="completed-tasks">
           <li class="task">
             <input type="checkbox" checked>
             <label class="task__name">See the Doctor</label>
             <input type="text" class="task__name">
-            <button class="task__edit-btn">Edit</button>
-            <button class="task__delete-btn">
+            <button class="task__edit-btn btn">Edit</button>
+            <button class="task__delete-btn btn">
               <img src="./remove.svg" alt="remove button">
             </button>
           </li>
